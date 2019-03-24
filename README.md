@@ -1,6 +1,8 @@
 # Dijkstra
-
 Uses Dijkstra's Algorithm to find the shortest pathways between points in a directed graph where the cost of edges is greater than or equal to 0.
+
+# Implementation Details
+Uses a priority queue implementation of Dijkstra's algorithm where the value in the queue is based on whether you are the next shortest path that the algorithm will follow.
 
 ## How to input data
 Reads in graph data from file using the format:
